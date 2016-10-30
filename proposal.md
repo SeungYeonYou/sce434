@@ -57,4 +57,10 @@
 
 ### Training Process
 
+- Linear Regression
+   - ETL Process를 통해 얻은 데이터를 이용하여 변수들과 순위의 상관관계를 알아보고 적합한 예측 모델을 개발한다.
+- SVM
+ 
 ## How we will evaluate solution
+
+원하는 주의 순위를 예측하기 위해 과거의 데이터들을 이용해 예측 모델을 만들고 순위를 예측해본다. 이를 통해 실제 순위와 예측 순위를 비교하고 예측 모델의 정확성을 평가한다.
