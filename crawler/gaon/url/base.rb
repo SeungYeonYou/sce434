@@ -18,6 +18,7 @@ module Url
       when "mobile" then "/main/section/chart/mobile.gaon?nationGbn=T&serviceGbn=S2020"
       when "album" then "/main/section/chart/album.gaon?nationGbn=T"
       when "karaoke" then "/main/section/chart/karaoke.gaon?nationGbn=T"
+      when "social" then "/main/section/chart/social.gaon?nationGbn=S"
       else
         raise ArgumentError.new("Cannot supported argument")
       end
